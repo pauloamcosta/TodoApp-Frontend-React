@@ -1,11 +1,12 @@
 import React from 'react'
 
 export default props => (
-    <nav className='navbar navbar-inverse bg-inverse'>
-    <div className='container'>
+    
+<nav className="navbar navbar-dark bg-primary">
+<div className='container'>
         <div className='navbar-header'>
             <a className='navbar-brand' href='#'>
-                <i className='fa fa-calendar-check-o'></i> TodoApp
+                <i className='fa fa-calendar-check-o'></i> Todo App
             </a>
         </div>
 
@@ -13,6 +14,9 @@ export default props => (
             <ul className="nav navbar-nav">
                 <li><a href='#/todos'>Tarefas</a></li>
                 <li><a href='#/about'>Sobre</a></li>
+                <li><a href='#/login'>Login</a></li>
+
+
             </ul>
         </div>
     </div>

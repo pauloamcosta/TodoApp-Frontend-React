@@ -1,7 +1,15 @@
-.btn {
+@import url('https://fonts.googleapis.com/css?family=Niramit');
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Niramit');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+
+body{
+    font-family: 'Niramit', sans-serif;
+}
+    .btn {
     margin-right: 5px;
 }
-
+.navbar-brand{
+    font-family: 'Luckiest Guy', cursive;}
 .markedAsDone {
     text-decoration: line-through;
     color: #777;
@@ -14,3 +22,26 @@
 .todoForm {
     padding-bottom: 60px;
 }
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.bg-primary {
+    color: #fff;
+    background-color: #ee6e73;
+}
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 0px;
+}
+
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+  }
